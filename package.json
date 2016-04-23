@@ -1,0 +1,36 @@
+{
+  "name": "blip_telegram_bot",
+  "version": "1.0.0",
+  "description": "Hi, my name is Blip.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pennyfx/blip_telegram_bot.git"
+  },
+  "keywords": [
+    "trade",
+    "robot"
+  ],
+  "author": "@pennyfx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pennyfx/blip_telegram_bot/issues"
+  },
+  "homepage": "https://github.com/pennyfx/blip_telegram_bot#readme",
+  "dependencies": {
+    "bignumber.js": "^2.3.0",
+    "bluebird": "^3.3.5",
+    "config": "^1.20.1",
+    "hashids": "^1.0.2",
+    "lodash": "^4.11.1",
+    "moment": "^2.13.0",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
